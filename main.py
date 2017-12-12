@@ -22,7 +22,7 @@ def main():
 
 if __name__ == '__main__':
     ROBOT = os.getenv('ROBOT', 'julinho')
-    BROKER = os.getenv('MQTT_BROKER', 'mqtt.sj.ifsc.edu.br')
+    BROKER = os.getenv('MQTT_BROKER', 'nuvem2.sj.ifsc.edu.br')
 
     logging.basicConfig(
         format='%(asctime)s [%(levelname)s] %(name)s: %(message)s',
